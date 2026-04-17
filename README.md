@@ -5,6 +5,27 @@ It provides APIs to manage users, projects, and tasks.
 
 ---
 
+## Project Structure
+
+project_management/
+│
+├── core/            → handles tasks & projects
+├── users/           → manages user data
+├── project_management/ → main settings and routing
+│
+├── manage.py        → run project
+├── requirements.txt → dependencies
+├── .gitignore       → ignore files
+└── README.md        → documentation
+
+---
+
+## Tech Stack
+
+Django, Django REST Framework, Python, SQLite
+
+---
+
 ## Setup Instructions
 
 1. Clone the repository
